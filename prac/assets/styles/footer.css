@@ -28,11 +28,16 @@
 .newsletter {
   flex: 2;
   text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
 }
 
 .newsletter form {
   margin-top: 10px;
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 5px;
 }
@@ -106,6 +111,8 @@
 }
 
 .footer-bottom {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size:100px;
   padding-top: 10px;

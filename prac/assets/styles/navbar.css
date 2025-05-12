@@ -71,7 +71,7 @@ nav .btn {
 }
 
 .nav-links a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ nav .btn {
 }
 
 @media only screen and (max-width: 768px) {
-  /* Apara sa cellphone */
+  /* para sa cellphone */
   .navbar {
     padding: 20px;
   }

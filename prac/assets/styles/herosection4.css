@@ -15,7 +15,8 @@
     padding: 0 50px;
     size: 150px;
   }
+
+  .hero-section4 h1{
+    font-size: 90px;
+  }
   
-h1{
-    font-size: 100px;
-}
