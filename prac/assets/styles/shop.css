@@ -1,0 +1,28 @@
+.hero-section2 {
+    position: relative;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color: #ece5e5;
+   background-image: url(images/bikesL.jpg);
+}
+.hero-content2 {
+    position: relative;
+    padding: 180px;
+}
+
+.hero-content2 h1 {
+    font-size: 60px;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 728px) {
+    .card-container {
+      flex-direction: column;
+    }
+  }

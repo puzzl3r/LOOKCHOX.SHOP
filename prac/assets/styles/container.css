@@ -1,0 +1,46 @@
+
+.contact, .about{
+    padding: 20px;
+
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+.email{
+    color: #F77840;
+    font-weight: bold;
+}
+.contactus-btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F77840;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contactus-btn:hover{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #F77840;
+    border: 3px solid  #F77840  ;
+
+}
+.info p {
+    margin: 5px 0;
+}

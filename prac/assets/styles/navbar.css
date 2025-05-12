@@ -1,0 +1,119 @@
+#header {
+  background: #ffffff;
+
+}
+.logo img{
+  width: 200px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #ffed00;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+nav .btn {
+  background-color: #ff7e5f;
+  padding: 10px 16px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #ffed00;
+}
+
+.hire-btn {
+  padding: 10px 20px;
+  background-color: #ff6d5a;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;  
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Apara sa cellphone */
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    text-align: center;
+    background: #333333;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .menu-btn {
+    display: inline-block;
+  }
+
+  .menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+}

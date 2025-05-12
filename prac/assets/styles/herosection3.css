@@ -1,0 +1,40 @@
+ .hero-section3{
+   background-image: url(../styles/images/lookhero.jpg);
+   background-position: center;
+   height: 100vh;
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   position: relative;
+   color: white;
+  }
+  .overlay1{
+    background: rgba(0, 0, 0, 0.5);
+    width:60%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    size: 150px;
+  }
+  .content1{
+    max-width: 600px;
+  }
+
+  h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .content1 h2 {
+    margin-top: 10px;
+    font-size:1.5rem;
+    color: #ccc;
+  }
+
+ .content1 p {
+  margin-top: 15px;
+  line-height: 1.9;
+  color: #ddd;
+}
