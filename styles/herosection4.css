@@ -1,0 +1,22 @@
+ .hero-section4 {
+    position: relative;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color: #ece5e5;
+   background-image: url(../styles/images/madebylook.jpg);
+  }
+  .overlay4{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    size: 150px;
+  }
+
+  .hero-section4 h1{
+    font-size: 90px;
+  }
+  

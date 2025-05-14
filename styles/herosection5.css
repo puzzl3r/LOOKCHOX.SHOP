@@ -1,0 +1,21 @@
+.hero-section5{
+   background-image: url(../styles/images/characterrrr.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   position: relative;
+   color: white;
+  }
+  .overlay5{
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+   size: 150px;
+  }

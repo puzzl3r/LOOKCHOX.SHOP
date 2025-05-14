@@ -1,0 +1,33 @@
+.line-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 100px;
+}
+
+.line{
+    height: 8px;
+    width: 150px;
+}
+
+.red {
+    background-color: #e20613;
+    width: 25%;
+  }
+  
+  .yellow {
+    background-color: #ffed00;
+    width: 30%;
+  }
+  
+  .gray {
+    background-color: #dddcd6;
+    width: 15%;
+  }
+  
+  .blue {
+    background-color: #005bac;
+    width: 25%;
+  }
